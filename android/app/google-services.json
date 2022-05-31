@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "401543266692",
+    "firebase_url": "https://sound-detection-1d03c-default-rtdb.firebaseio.com",
+    "project_id": "sound-detection-1d03c",
+    "storage_bucket": "sound-detection-1d03c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401543266692:android:3b0d0c2265f2310e589dd1",
+        "android_client_info": {
+          "package_name": "com.sounddetect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401543266692-lshpjgacqk7f9okdvueaglkhv7d5rkiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo21C8wO17l4ailBRjCKAgrnuUJ6UCmVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401543266692-lshpjgacqk7f9okdvueaglkhv7d5rkiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
