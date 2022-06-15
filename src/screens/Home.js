@@ -26,7 +26,7 @@ let classes = [
   {name: 'kursi', val: 4},
 ];
 
-const Home = () => {
+const Home = ({navigation}) => {
   const [dataSound, setDataSound] = useState(
     `0$$0&&""#0.00#0.10#0.00#0.00#0.27#0.54#0.07#0.00#0.01`,
   );
@@ -139,6 +139,11 @@ const Home = () => {
 
   return (
     <SafeAreaView style={styles.container}>
+      <TouchableOpacity
+        style={{position: 'absolute', right: 24, top: 24}}
+        onPress={() => navigation.navigate('History')}>
+        <Icon name="timetable" size={36} color="#62A1A9" />
+      </TouchableOpacity>
       <View style={styles.level}>
         <Speedometer
           value={level.replace(/[^\d.-]/g, '')}
@@ -222,7 +227,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 24,
-    paddingTop: 80,
+    paddingTop: 120,
   },
   level: {
     alignItems: 'center',
